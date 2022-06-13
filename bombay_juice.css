@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(7, 7, 8, 0.7),transparent),url(images/falsa-juice.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo
+{
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+ul li
+{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 35px;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+.container
+{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+section .h1 h1
+{
+    font-family: Verdana;
+}
+.small-size
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 30px;
+}
+img
+{  
+    height: 503px;
+    margin-top: 0;
+    margin-right: -58px;
+    margin-bottom: -500px
+}
+section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h1
+{
+    font-size: 25px;
+    -webkit-text-stroke: 2px black;
+    opacity: 0.5;
+    text-shadow: 9px black;
+}
